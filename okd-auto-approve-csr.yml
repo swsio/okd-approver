@@ -13,7 +13,7 @@ spec:
         spec:
           containers:
             - name: openshift-client
-              image: 'quay.io/agileio/okd4-auto-approve-csr:4.6'
+              image: 'quay.io/agileio/okd4-auto-approve-csr:4.7'
               args:
                 - /bin/sh
                 - '-c'
